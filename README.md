@@ -65,20 +65,7 @@ module.exports = {
   plugins: ["tailwindcss-react-native/babel"],
 };
 ```
-## Using Firebase
-Firebase SDK Setup
-```
-expo install firebase
-or
-expo install firebase@9.6.11
-```
-#### Dependencies
-```
-expo install react-native-screens
-```
-```
-expo install react-native-safe-area-context
-```
+
 ### Creating a Build
 - Optimize the assets for speed - ``npx expo-optimize`` (formerly expo optimize)
 - Bundle the project for production - ``npx expo export:web`` (``expo build:web`` in the legacy Expo CLI).
