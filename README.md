@@ -76,8 +76,20 @@ module.exports = {
 - For more help use ``npx expo export:web --help``
 - <a href="https://docs.expo.dev/eas" target="_blank">More Info</a>
 
+#### 🔴 Open the camera app on your device and scan the code below
+<a href="#instagram"><img src="https://drive.google.com/uc?export=download&id=1MYoXnakTDmbp23AwWyChIPmPONP-FpJV" alt="qr" width="200" height="200" /></a>
+<a href="#instagram"><img src="https://user-images.githubusercontent.com/99184393/182557606-b36f2540-1260-42bf-b547-ed5832e3615e.png" alt="qr" width="200" height="200" /></a>
+<br>
 #### Expo Publish
 publish your project
 ```
 expo publish
 ```
+
+ <hr />
+<div style="display: inline_block"><br>
+ <img align="center" alt="React"  width="180" src="https://user-images.githubusercontent.com/99184393/184466112-3d639a7d-e292-43f1-96ff-0d7506be7d5a.jpg">
+  <img align="center" alt="React"  width="180" src="https://user-images.githubusercontent.com/99184393/184466143-c95e743f-eff5-4acf-ad9d-4f33142ca088.jpg">
+  <img align="center" alt="React"  width="180" src="https://user-images.githubusercontent.com/99184393/184466211-d27ca927-7a3f-4a36-8920-3d7d62e7ab29.jpg">
+    <img align="center" alt="React"  width="180" src="https://user-images.githubusercontent.com/99184393/184466252-59874cd9-bd09-48c5-8122-715d4f386ce3.jpg">
+</div>
