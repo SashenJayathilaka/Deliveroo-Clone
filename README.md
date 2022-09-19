@@ -194,4 +194,4 @@ expo publish
 
 Sashen - [@twitter_handle](https://twitter.com/SashenHasinduJ) - sashenjayathilaka95@gmail.com
 
-Project Link: [https://github.com/Louis3797/Instagram-Clone](https://github.com/SashenJayathilaka/Instagram-Clone.git)
+Project Link: [https://github.com/SashenJayathilaka/Deliveroo-Clone.git](https://github.com/SashenJayathilaka/Deliveroo-Clone.git)
