@@ -80,9 +80,6 @@
 - Sign up for a Sanity account <a href='https://www.sanity.io'>HERE</a>
 - Install Node JS in your computer <a href='https://nodejs.org/en/'>HERE</a>
 
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ### :gear: Installation
 
 ![](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
