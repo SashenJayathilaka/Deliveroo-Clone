@@ -1,7 +1,36 @@
 # Deliveroo Clone with REACT NATIVE!
 
-#### PREREQUISITES:
-- Install Node JS in your computer <a href='https://nodejs.org/en/'>HERE</a>
+![](https://img.shields.io/badge/Made%20with-React_Native-orange?style=for-the-badge&logo=React)
+
+
+<a href="#" target="_blank">![](https://img.shields.io/badge/Ios%2FAndroid-Up-green)</a>
+![](https://img.shields.io/badge/Maintained-Yes-indigo)
+![](https://img.shields.io/github/forks/SashenJayathilaka/Deliveroo-Clone.svg)
+![](https://img.shields.io/github/stars/SashenJayathilaka/Deliveroo-Clone.svg)
+![](https://img.shields.io/github/issues/SashenJayathilaka/Deliveroo-Clone)
+![](https://img.shields.io/github/last-commit/SashenJayathilaka/Deliveroo-Clone)
+
+
+### :space_invader: Tech Stack
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://#/">Javascript</a></li>
+    <li><a href="https://docs.expo.dev/workflow/expo-cli">Expo</a></li>
+    <li><a href="https://reactnative.dev">React Native</a></li>
+     <li><a href="https://tailwindcss.com/">TailwindCSS</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.sanity.io">Sanity</a></li>
+  </ul>
+</details>
+
+<br />
 
 <a href="#facebook"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="Facebook" width="30" height="30" /></a>
 <a href="#instagram"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="Instagram" width="30" height="30" /></a>
@@ -17,9 +46,51 @@
 <a href="#github"><img src="https://raw.githubusercontent.com/atulmy/oauth/master/web/public/images/tech/github.svg" alt="GitHub" width="30" height="30" /></a>
 <a href="#github"><img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c520.png" alt="GitHub" width="30" height="30" /></a>
 
+
+<!-- Screenshots -->
+### :camera: Screenshots
+
+ <hr />
+<div style="display: inline_block" align="center"><br>
+ <img align="center" alt="React"  width="180" src="https://user-images.githubusercontent.com/99184393/184466112-3d639a7d-e292-43f1-96ff-0d7506be7d5a.jpg">
+  <img align="center" alt="React"  width="180" src="https://user-images.githubusercontent.com/99184393/184466143-c95e743f-eff5-4acf-ad9d-4f33142ca088.jpg">
+  <img align="center" alt="React"  width="180" src="https://user-images.githubusercontent.com/99184393/184466211-d27ca927-7a3f-4a36-8920-3d7d62e7ab29.jpg">
+    <img align="center" alt="React"  width="180" src="https://user-images.githubusercontent.com/99184393/184466252-59874cd9-bd09-48c5-8122-715d4f386ce3.jpg">
+</div>
+
+<br />
+
+![](https://img.shields.io/badge/Deliveroo-00CCBC?style=for-the-badge&logo=Deliveroo&logoColor=white)
+
+#### 🔴 Open the camera app on your device and scan the code below
+<a href="#instagram"><img src="https://drive.google.com/uc?export=download&id=1MYoXnakTDmbp23AwWyChIPmPONP-FpJV" alt="qr" width="200" height="200" /></a>
+<a href="#instagram"><img src="https://user-images.githubusercontent.com/99184393/182557606-b36f2540-1260-42bf-b547-ed5832e3615e.png" alt="qr" width="200" height="200" /></a>
+
+<br />
+
+<hr />
+
+
+![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)
+![forthebadge](https://forthebadge.com/images/badges/for-you.svg)
+![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)
+
+## 	:toolbox: Getting Started
+### :bangbang: Prerequisites
+- Sign up for a Sanity account <a href='https://www.sanity.io'>HERE</a>
+- Install Node JS in your computer <a href='https://nodejs.org/en/'>HERE</a>
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### :gear: Installation
+
+![](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+
+Install my-project with expo
+
+![](https://img.shields.io/badge/Expo-02569B?style=for-the-badge&logo=Expo&logoColor=white)
+
  Installing Expo CLI
 
 ```
@@ -28,14 +99,17 @@ npm install --global expo-cli
 Initializing the project
 ```
 npx create-expo-app deliveroo-clone 
+```
+```
 cd deliveroo-clone
 ```
 
- Starting the development server
-```
-expo start
-```
-## Setup Tailwind CSS
+Install dependencies
+
+### Setup Tailwind CSS
+
+![](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
 ```
 npm install tailwindcss-react-native
 npm install --save-dev tailwindcss
@@ -60,13 +134,41 @@ function MyAppsProviders({ children }) {
   return <TailwindProvider>{children}</TailwindProvider>;
 }
 ```
-### Configure your babel.config.js
+##### Configure your babel.config.js
 ```
 // babel.config.js
 module.exports = {
   plugins: ["tailwindcss-react-native/babel"],
 };
 ```
+
+Install dependencies
+
+<a href="https://github.com/SashenJayathilaka/Deliveroo-Clone/blob/master/package.json" target="_blank">🔶 Dependency Info</a>
+
+<!-- Run Locally -->
+### :running: Run Locally
+
+![](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
+
+Clone the project
+
+```bash
+  git clone https://github.com/SashenJayathilaka/Deliveroo-Clone.git
+```
+
+Install dependencies
+
+```bash
+  npx expo install
+```
+Start the server
+
+```bash
+  npx expo start
+```
+
+<hr />
 
 ### Creating a Build
 - Optimize the assets for speed - ``npx expo-optimize`` (formerly expo optimize)
@@ -76,20 +178,23 @@ module.exports = {
 - For more help use ``npx expo export:web --help``
 - <a href="https://docs.expo.dev/eas" target="_blank">More Info</a>
 
-#### 🔴 Open the camera app on your device and scan the code below
-<a href="#instagram"><img src="https://drive.google.com/uc?export=download&id=1MYoXnakTDmbp23AwWyChIPmPONP-FpJV" alt="qr" width="200" height="200" /></a>
-<a href="#instagram"><img src="https://user-images.githubusercontent.com/99184393/182557606-b36f2540-1260-42bf-b547-ed5832e3615e.png" alt="qr" width="200" height="200" /></a>
-<br>
+<!-- Deployment -->
+### :triangular_flag_on_post: Deployment
+
+To deploy this project run
+
 #### Expo Publish
+
+![](https://img.shields.io/badge/Expo-02569B?style=for-the-badge&logo=Expo&logoColor=white)
+
 publish your project
+
 ```
 expo publish
 ```
 
- <hr />
-<div style="display: inline_block"><br>
- <img align="center" alt="React"  width="180" src="https://user-images.githubusercontent.com/99184393/184466112-3d639a7d-e292-43f1-96ff-0d7506be7d5a.jpg">
-  <img align="center" alt="React"  width="180" src="https://user-images.githubusercontent.com/99184393/184466143-c95e743f-eff5-4acf-ad9d-4f33142ca088.jpg">
-  <img align="center" alt="React"  width="180" src="https://user-images.githubusercontent.com/99184393/184466211-d27ca927-7a3f-4a36-8920-3d7d62e7ab29.jpg">
-    <img align="center" alt="React"  width="180" src="https://user-images.githubusercontent.com/99184393/184466252-59874cd9-bd09-48c5-8122-715d4f386ce3.jpg">
-</div>
+## :handshake: Contact
+
+Sashen - [@twitter_handle](https://twitter.com/SashenHasinduJ) - sashenjayathilaka95@gmail.com
+
+Project Link: [https://github.com/Louis3797/Instagram-Clone](https://github.com/SashenJayathilaka/Instagram-Clone.git)
