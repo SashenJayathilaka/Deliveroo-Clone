@@ -1,7 +1,15 @@
-# Deliveroo Clone with REACT NATIVE!
+<div align="center">
 
-![](https://img.shields.io/badge/Made%20with-React_Native-orange?style=for-the-badge&logo=React)
-
+  <img src="https://user-images.githubusercontent.com/99184393/196014260-dfc68631-1abb-4635-ac6d-787ad0805dcd.png" alt="logo" width="200" height="auto" />
+  
+  # Deliveroo Clone with REACT NATIVE!
+  
+  <p>
+Deliveroo Clone with REACT NATIVE! (Navigation, Redux, Tailwind CSS & Sanity.io)
+  </p>
+  
+  
+<!-- Badges -->
 
 <a href="#" target="_blank">![](https://img.shields.io/badge/Ios%2FAndroid-Up-green)</a>
 ![](https://img.shields.io/badge/Maintained-Yes-indigo)
@@ -10,6 +18,60 @@
 ![](https://img.shields.io/github/issues/SashenJayathilaka/Deliveroo-Clone)
 ![](https://img.shields.io/github/last-commit/SashenJayathilaka/Deliveroo-Clone)
 
+   
+<h4>
+    <a href="https://projects-seven-peach.vercel.app">View Demo</a>
+  <span> · </span>
+    <a href="https://github.com/SashenJayathilaka/Instagram-Clone/blob/master/README.md">Documentation</a>
+  <span> · </span>
+    <a href="https://github.com/SashenJayathilaka/Instagram-Clone/issues">Report Bug</a>
+  <span> · </span>
+    <a href="https://github.com/SashenJayathilaka/Instagram-Clone/issues">Request Feature</a>
+  </h4>
+</div>
+
+<br />
+
+<!-- Table of Contents -->
+## :notebook_with_decorative_cover: Table of Contents
+
+- [About the Project](#star2-about-the-project)
+  * [Screenshots](#camera-screenshots)
+  * [Tech Stack](#space_invader-tech-stack)
+- [Getting Started](#toolbox-getting-started)
+  * [Prerequisites](#bangbang-prerequisites)
+  * [Installation](#gear-installation)
+  * [Run Locally](#running-run-locally)
+  * [Deployment](#triangular_flag_on_post-deployment)
+- [Contact](#handshake-contact)
+
+
+<!-- About the Project -->
+## :star2: About the Project
+
+<!-- Screenshots -->
+### :camera: Screenshots
+
+<div style="display: inline_block" align="center"><br>
+ <img align="center" alt="React"  width="180" src="https://user-images.githubusercontent.com/99184393/184466112-3d639a7d-e292-43f1-96ff-0d7506be7d5a.jpg">
+  <img align="center" alt="React"  width="180" src="https://user-images.githubusercontent.com/99184393/184466143-c95e743f-eff5-4acf-ad9d-4f33142ca088.jpg">
+  <img align="center" alt="React"  width="180" src="https://user-images.githubusercontent.com/99184393/184466211-d27ca927-7a3f-4a36-8920-3d7d62e7ab29.jpg">
+    <img align="center" alt="React"  width="180" src="https://user-images.githubusercontent.com/99184393/184466252-59874cd9-bd09-48c5-8122-715d4f386ce3.jpg">
+</div>
+
+<br />
+
+![](https://img.shields.io/badge/Deliveroo-00CCBC?style=for-the-badge&logo=Deliveroo&logoColor=white)
+
+#### 🔴 Open the camera app on your device and scan the code below
+<a href="#instagram"><img src="https://drive.google.com/uc?export=download&id=1MYoXnakTDmbp23AwWyChIPmPONP-FpJV" alt="qr" width="200" height="200" /></a>
+<a href="#instagram"><img src="https://user-images.githubusercontent.com/99184393/182557606-b36f2540-1260-42bf-b547-ed5832e3615e.png" alt="qr" width="200" height="200" /></a>
+
+<br />
+
+![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)
+![forthebadge](https://forthebadge.com/images/badges/for-you.svg)
+![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)
 
 ### :space_invader: Tech Stack
 
@@ -30,6 +92,7 @@
   </ul>
 </details>
 
+
 <br />
 
 <a href="#facebook"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="Facebook" width="30" height="30" /></a>
@@ -45,35 +108,6 @@
 <a href="#github"><img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" alt="GitHub" width="30" height="30" /></a>
 <a href="#github"><img src="https://raw.githubusercontent.com/atulmy/oauth/master/web/public/images/tech/github.svg" alt="GitHub" width="30" height="30" /></a>
 <a href="#github"><img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c520.png" alt="GitHub" width="30" height="30" /></a>
-
-
-<!-- Screenshots -->
-### :camera: Screenshots
-
- <hr />
-<div style="display: inline_block" align="center"><br>
- <img align="center" alt="React"  width="180" src="https://user-images.githubusercontent.com/99184393/184466112-3d639a7d-e292-43f1-96ff-0d7506be7d5a.jpg">
-  <img align="center" alt="React"  width="180" src="https://user-images.githubusercontent.com/99184393/184466143-c95e743f-eff5-4acf-ad9d-4f33142ca088.jpg">
-  <img align="center" alt="React"  width="180" src="https://user-images.githubusercontent.com/99184393/184466211-d27ca927-7a3f-4a36-8920-3d7d62e7ab29.jpg">
-    <img align="center" alt="React"  width="180" src="https://user-images.githubusercontent.com/99184393/184466252-59874cd9-bd09-48c5-8122-715d4f386ce3.jpg">
-</div>
-
-<br />
-
-![](https://img.shields.io/badge/Deliveroo-00CCBC?style=for-the-badge&logo=Deliveroo&logoColor=white)
-
-#### 🔴 Open the camera app on your device and scan the code below
-<a href="#instagram"><img src="https://drive.google.com/uc?export=download&id=1MYoXnakTDmbp23AwWyChIPmPONP-FpJV" alt="qr" width="200" height="200" /></a>
-<a href="#instagram"><img src="https://user-images.githubusercontent.com/99184393/182557606-b36f2540-1260-42bf-b547-ed5832e3615e.png" alt="qr" width="200" height="200" /></a>
-
-<br />
-
-<hr />
-
-
-![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)
-![forthebadge](https://forthebadge.com/images/badges/for-you.svg)
-![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)
 
 ## 	:toolbox: Getting Started
 ### :bangbang: Prerequisites
