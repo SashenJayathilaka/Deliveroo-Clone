@@ -20,13 +20,13 @@ Deliveroo Clone with REACT NATIVE! (Navigation, Redux, Tailwind CSS & Sanity.io)
 
    
 <h4>
-    <a href="https://projects-seven-peach.vercel.app">View Demo</a>
+    <a href="">View Demo</a>
   <span> · </span>
-    <a href="https://github.com/SashenJayathilaka/Instagram-Clone/blob/master/README.md">Documentation</a>
+    <a href="https://github.com/SashenJayathilaka/Deliveroo-Clone/blob/master/README.md">Documentation</a>
   <span> · </span>
-    <a href="https://github.com/SashenJayathilaka/Instagram-Clone/issues">Report Bug</a>
+    <a href="https://github.com/SashenJayathilaka/Deliveroo-Clone/issues">Report Bug</a>
   <span> · </span>
-    <a href="https://github.com/SashenJayathilaka/Instagram-Clone/issues">Request Feature</a>
+    <a href="https://github.com/SashenJayathilaka/Deliveroo-Clone/issues">Request Feature</a>
   </h4>
 </div>
 
