@@ -18,7 +18,6 @@ Deliveroo Clone with REACT NATIVE! (Navigation, Redux, Tailwind CSS & Sanity.io)
 ![](https://img.shields.io/github/issues/SashenJayathilaka/Deliveroo-Clone)
 ![](https://img.shields.io/github/last-commit/SashenJayathilaka/Deliveroo-Clone)
 
-   
 <h4>
     <a href="">View Demo</a>
   <span> · </span>
@@ -33,23 +32,25 @@ Deliveroo Clone with REACT NATIVE! (Navigation, Redux, Tailwind CSS & Sanity.io)
 <br />
 
 <!-- Table of Contents -->
+
 ## :notebook_with_decorative_cover: Table of Contents
 
 - [About the Project](#star2-about-the-project)
-  * [Screenshots](#camera-screenshots)
-  * [Tech Stack](#space_invader-tech-stack)
+  - [Screenshots](#camera-screenshots)
+  - [Tech Stack](#space_invader-tech-stack)
 - [Getting Started](#toolbox-getting-started)
-  * [Prerequisites](#bangbang-prerequisites)
-  * [Installation](#gear-installation)
-  * [Run Locally](#running-run-locally)
-  * [Deployment](#triangular_flag_on_post-deployment)
+  - [Prerequisites](#bangbang-prerequisites)
+  - [Installation](#gear-installation)
+  - [Run Locally](#running-run-locally)
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [Contact](#handshake-contact)
 
-
 <!-- About the Project -->
+
 ## :star2: About the Project
 
 <!-- Screenshots -->
+
 ### :camera: Screenshots
 
 <div style="display: inline_block" align="center"><br>
@@ -64,7 +65,8 @@ Deliveroo Clone with REACT NATIVE! (Navigation, Redux, Tailwind CSS & Sanity.io)
 ![](https://img.shields.io/badge/Deliveroo-00CCBC?style=for-the-badge&logo=Deliveroo&logoColor=white)
 
 #### 🔴 Open the camera app on your device and scan the code below
-<a href="#instagram"><img src="https://drive.google.com/uc?export=download&id=1MYoXnakTDmbp23AwWyChIPmPONP-FpJV" alt="qr" width="200" height="200" /></a>
+
+<a href="#instagram"><img src="./qr/expo-go.svg" alt="qr" width="200" height="200" /></a>
 <a href="#instagram"><img src="https://user-images.githubusercontent.com/99184393/182557606-b36f2540-1260-42bf-b547-ed5832e3615e.png" alt="qr" width="200" height="200" /></a>
 
 <br />
@@ -92,7 +94,6 @@ Deliveroo Clone with REACT NATIVE! (Navigation, Redux, Tailwind CSS & Sanity.io)
   </ul>
 </details>
 
-
 <br />
 
 <a href="#facebook"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="Facebook" width="30" height="30" /></a>
@@ -109,8 +110,10 @@ Deliveroo Clone with REACT NATIVE! (Navigation, Redux, Tailwind CSS & Sanity.io)
 <a href="#github"><img src="https://raw.githubusercontent.com/atulmy/oauth/master/web/public/images/tech/github.svg" alt="GitHub" width="30" height="30" /></a>
 <a href="#github"><img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c520.png" alt="GitHub" width="30" height="30" /></a>
 
-## 	:toolbox: Getting Started
+## :toolbox: Getting Started
+
 ### :bangbang: Prerequisites
+
 - Sign up for a Sanity account <a href='https://www.sanity.io'>HERE</a>
 - Install Node JS in your computer <a href='https://nodejs.org/en/'>HERE</a>
 
@@ -122,15 +125,18 @@ Install my-project with expo
 
 ![](https://img.shields.io/badge/Expo-02569B?style=for-the-badge&logo=Expo&logoColor=white)
 
- Installing Expo CLI
+Installing Expo CLI
 
 ```
 npm install --global expo-cli
 ```
+
 Initializing the project
+
 ```
-npx create-expo-app deliveroo-clone 
+npx create-expo-app deliveroo-clone
 ```
+
 ```
 cd deliveroo-clone
 ```
@@ -145,7 +151,9 @@ Install dependencies
 npm install tailwindcss-react-native
 npm install --save-dev tailwindcss
 ```
-Tailwindcss requires a ``tailwind.config.js`` file with the content section configured to include the paths to all of your components and any other source files that contain Tailwind class names.
+
+Tailwindcss requires a `tailwind.config.js` file with the content section configured to include the paths to all of your components and any other source files that contain Tailwind class names.
+
 ```
 // tailwind.config.js
 module.exports = {
@@ -157,7 +165,9 @@ module.exports = {
   // ...
 };
 ```
-Add ``TailwindProvider`` at the top level of your application. The ``TailwindProvider`` creates the context for reactive styles and the atomic style objects.
+
+Add `TailwindProvider` at the top level of your application. The `TailwindProvider` creates the context for reactive styles and the atomic style objects.
+
 ```
 import { TailwindProvider } from "tailwindcss-react-native";
 
@@ -165,7 +175,9 @@ function MyAppsProviders({ children }) {
   return <TailwindProvider>{children}</TailwindProvider>;
 }
 ```
+
 ##### Configure your babel.config.js
+
 ```
 // babel.config.js
 module.exports = {
@@ -178,6 +190,7 @@ Install dependencies
 <a href="https://github.com/SashenJayathilaka/Deliveroo-Clone/blob/master/package.json" target="_blank">🔶 Dependency Info</a>
 
 <!-- Run Locally -->
+
 ### :running: Run Locally
 
 ![](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
@@ -193,6 +206,7 @@ Install dependencies
 ```bash
   npx expo install
 ```
+
 Start the server
 
 ```bash
@@ -202,14 +216,16 @@ Start the server
 <hr />
 
 ### Creating a Build
-- Optimize the assets for speed - ``npx expo-optimize`` (formerly expo optimize)
-- Bundle the project for production - ``npx expo export:web`` (``expo build:web`` in the legacy Expo CLI).
-- Creates a production ready static bundle in the ``web-build/`` directory. Don't edit this folder directly.
+
+- Optimize the assets for speed - `npx expo-optimize` (formerly expo optimize)
+- Bundle the project for production - `npx expo export:web` (`expo build:web` in the legacy Expo CLI).
+- Creates a production ready static bundle in the `web-build/` directory. Don't edit this folder directly.
 - If you make any changes to your project, you'll need to re-build for production.
-- For more help use ``npx expo export:web --help``
+- For more help use `npx expo export:web --help`
 - <a href="https://docs.expo.dev/eas" target="_blank">More Info</a>
 
 <!-- Deployment -->
+
 ### :triangular_flag_on_post: Deployment
 
 To deploy this project run
