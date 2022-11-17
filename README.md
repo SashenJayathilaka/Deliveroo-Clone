@@ -201,6 +201,12 @@ Clone the project
   git clone https://github.com/SashenJayathilaka/Deliveroo-Clone.git
 ```
 
+change directory
+
+```bash
+  cd Deliveroo-Clone
+```
+
 Install dependencies
 
 ```bash
