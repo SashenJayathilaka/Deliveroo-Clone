@@ -64,7 +64,7 @@ Deliveroo Clone with REACT NATIVE! (Navigation, Redux, Tailwind CSS & Sanity.io)
 
 ![](https://img.shields.io/badge/Deliveroo-00CCBC?style=for-the-badge&logo=Deliveroo&logoColor=white)
 
-#### 🔴 Open the camera app on your device and scan the code below
+#### 🔴 Open the camera app on your device and scan the code below (live demo)
 
 <a href="#instagram"><img src="./qr/expo-go.svg" alt="qr" width="200" height="200" /></a>
 <a href="#instagram"><img src="https://user-images.githubusercontent.com/99184393/182557606-b36f2540-1260-42bf-b547-ed5832e3615e.png" alt="qr" width="200" height="200" /></a>
