@@ -1,9 +1,10 @@
-import { View, Text, TouchableOpacity, Image } from "react-native";
-import React from "react";
-import { StarIcon } from "react-native-heroicons/solid";
-import { LocationMarkerIcon } from "react-native-heroicons/outline";
-import { urlFor } from "../sanity";
 import { useNavigation } from "@react-navigation/native";
+import React from "react";
+import { Image, Text, TouchableOpacity, View } from "react-native";
+import { LocationMarkerIcon } from "react-native-heroicons/outline";
+import { StarIcon } from "react-native-heroicons/solid";
+
+import { urlFor } from "../sanity";
 
 export default function RestaurantCard({
   id,

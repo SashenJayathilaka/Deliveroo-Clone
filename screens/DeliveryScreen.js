@@ -54,7 +54,18 @@ export default function DeliveryScreen() {
         }}
         className="flex-1 -mt-10 z-0"
         mapType="mutedStandard"
-      ></MapView>
+      >
+        <Marker
+          coordinate={{
+            latitude: restaurant.lat,
+            longitude: restaurant.long,
+          }}
+          title={restaurant.title}
+          description={restaurant.short_description}
+          identifier="origin"
+          pinColor="#00CCBB"
+        />
+      </MapView>
       <SafeAreaView className="bg-white flex-row items-center space-x-5 h-28">
         <Image
           source={{

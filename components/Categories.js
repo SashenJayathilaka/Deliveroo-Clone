@@ -1,7 +1,8 @@
-import { View, Text, ScrollView } from "react-native";
-import React, { useState, useEffect } from "react";
-import CategoriesCard from "./CategoriesCard";
+import React, { useEffect, useState } from "react";
+import { ScrollView } from "react-native";
+
 import sanityClient, { urlFor } from "../sanity";
+import CategoriesCard from "./CategoriesCard";
 
 export default function Categories() {
   const [categories, setCategories] = useState([]);

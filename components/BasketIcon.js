@@ -1,9 +1,10 @@
-import { View, Text, TouchableOpacity } from "react-native";
-import React from "react";
-import { useSelector } from "react-redux";
-import { selectBasketItems, selectBasketTotal } from "../features/basketSlice";
 import { useNavigation } from "@react-navigation/native";
+import React from "react";
 import Currency from "react-currency-formatter";
+import { Text, TouchableOpacity, View } from "react-native";
+import { useSelector } from "react-redux";
+
+import { selectBasketItems, selectBasketTotal } from "../features/basketSlice";
 
 export default function BasketIcon() {
   const items = useSelector(selectBasketItems);

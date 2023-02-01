@@ -1,8 +1,9 @@
-import { View, Text, ScrollView } from "react-native";
 import React, { useEffect, useState } from "react";
+import { ScrollView, Text, View } from "react-native";
 import { ArrowRightIcon } from "react-native-heroicons/outline";
-import RestaurantCard from "./RestaurantCard";
+
 import sanityClient from "../sanity";
+import RestaurantCard from "./RestaurantCard";
 
 export default function FeatureRow({ id, title, description }) {
   const [restaurants, setRestaurants] = useState([]);
