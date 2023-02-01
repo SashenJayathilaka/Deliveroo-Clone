@@ -1,21 +1,25 @@
-import {
-  View,
-  Text,
-  SafeAreaView,
-  TouchableOpacity,
-  Image,
-  ScrollView,
-} from "react-native";
-import React, { useEffect, useState } from "react";
 import { useNavigation } from "@react-navigation/native";
-import { useSelector } from "react-redux/es/exports";
-import { selectRestaurant } from "../features/restaurantSlice";
-import { useDispatch } from "react-redux";
-import { selectBasketItems } from "../features/basketSlice";
-import { XCircleIcon } from "react-native-heroicons/solid";
-import { urlFor } from "../sanity";
+import React, { useEffect, useState } from "react";
 import Currency from "react-currency-formatter";
-import { removeFromBasket, selectBasketTotal } from "../features/basketSlice";
+import {
+  Image,
+  SafeAreaView,
+  ScrollView,
+  Text,
+  TouchableOpacity,
+  View,
+} from "react-native";
+import { XCircleIcon } from "react-native-heroicons/solid";
+import { useDispatch } from "react-redux";
+import { useSelector } from "react-redux/es/exports";
+
+import {
+  removeFromBasket,
+  selectBasketItems,
+  selectBasketTotal,
+} from "../features/basketSlice";
+import { selectRestaurant } from "../features/restaurantSlice";
+import { urlFor } from "../sanity";
 
 export default function BasketScreen() {
   const navigation = useNavigation();

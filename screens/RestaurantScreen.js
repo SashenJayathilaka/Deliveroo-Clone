@@ -1,18 +1,19 @@
-import { View, Text, ScrollView, Image, TouchableOpacity } from "react-native";
-import React, { useLayoutEffect, useEffect } from "react";
-import { useRoute, useNavigation } from "@react-navigation/native";
-import { urlFor } from "../sanity";
+import { useNavigation, useRoute } from "@react-navigation/native";
+import React, { useEffect, useLayoutEffect } from "react";
+import { Image, ScrollView, Text, TouchableOpacity, View } from "react-native";
 import {
   ArrowLeftIcon,
   ChevronRightIcon,
   LocationMarkerIcon,
-  StarIcon,
   QuestionMarkCircleIcon,
+  StarIcon,
 } from "react-native-heroicons/solid";
-import DishRow from "../components/DishRow";
-import BasketIcon from "../components/BasketIcon";
 import { useDispatch } from "react-redux/es/exports";
+
+import BasketIcon from "../components/BasketIcon";
+import DishRow from "../components/DishRow";
 import { setRestaurant } from "../features/restaurantSlice";
+import { urlFor } from "../sanity";
 
 export default function RestaurantScreen() {
   const navigation = useNavigation();

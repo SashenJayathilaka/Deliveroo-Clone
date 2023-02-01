@@ -1,19 +1,20 @@
-import {
-  View,
-  Text,
-  SafeAreaView,
-  Image,
-  TextInput,
-  ScrollView,
-} from "react-native";
-import React, { useLayoutEffect, useState, useEffect } from "react";
 import { useNavigation } from "@react-navigation/native";
+import React, { useEffect, useLayoutEffect, useState } from "react";
 import {
-  ChevronDownIcon,
-  UserIcon,
-  SearchIcon,
+  Image,
+  SafeAreaView,
+  ScrollView,
+  Text,
+  TextInput,
+  View,
+} from "react-native";
+import {
   AdjustmentsIcon,
+  ChevronDownIcon,
+  SearchIcon,
+  UserIcon,
 } from "react-native-heroicons/outline";
+
 import Categories from "../components/Categories";
 import FeatureRow from "../components/FeatureRow";
 import sanityClient from "../sanity";

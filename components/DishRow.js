@@ -1,15 +1,15 @@
-import { View, Text, TouchableOpacity, Image } from "react-native";
 import React, { useState } from "react";
-import { urlFor } from "../sanity";
 import Currency from "react-currency-formatter";
+import { Image, Text, TouchableOpacity, View } from "react-native";
 import { MinusCircleIcon, PlusCircleIcon } from "react-native-heroicons/solid";
 import { useDispatch, useSelector } from "react-redux";
+
 import {
   addToBasket,
-  selectBasketItems,
-  selectBasketItemWithId,
   removeFromBasket,
+  selectBasketItemWithId,
 } from "../features/basketSlice";
+import { urlFor } from "../sanity";
 
 export default function DishRow({ id, name, description, price, image }) {
   const [isPressed, setIsPress] = useState(false);
